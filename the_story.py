@@ -3,7 +3,7 @@ location = "start"
 role = "???"
 while True:
   if location == "start":
-    print("я просыпаюсь в какой-то хибаре и вижу записку")
+    print("я просыпаюсь! в какой-то хибаре и вижу записку")
     answer = int(input("Прочитать (1) или Осмотреться(2)"))
     if (answer == 1):
       location = "start_1"
